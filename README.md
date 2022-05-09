@@ -32,7 +32,7 @@ MOBILE
 ### Links
 
 - Solution URL: [GitHub](https://github.com/JairoAtoche/Stats-Preview-Card-Component)
-- Live Site URL: [GitHub Pages]()
+- Live Site URL: [GitHub Pages](https://jairoatoche.github.io/Stats-Preview-Card-Component/)
 
 ## My process
 
