@@ -125,10 +125,17 @@ body {
     .mobile{
         display: inherit;
     }
+    body {
+        height: 120%;
+    }
     .main {
-        width: 80%;
-        height: 80%;
-        margin: 0;
+        width: 100%;
+        height: 90%;
+        margin-top: 10%;
+        margin-bottom: 20%;  
+    }
+    .footer {
+        margin-bottom: -80px;
     }
     .card-container {
         flex-direction: column-reverse;
