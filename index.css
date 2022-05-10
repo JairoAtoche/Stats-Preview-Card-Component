@@ -40,6 +40,7 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 .text-container {
     width: 100%;
@@ -47,14 +48,14 @@ body {
 }
 .img-container {
     width: 100%;
+    background-color: var(--soft-violet);
 }
 .img-container__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    filter:  grayscale(90%) brightness(35%) sepia(100%) hue-rotate(-125deg) saturate(550%) contrast(0.8);
+    mix-blend-mode: multiply;
+    opacity: 0.75;
 }
 
 .text-container__h1,.text-container__p {
